@@ -24,9 +24,11 @@ git clone https://github.com/BieAnimaton/Text-Detection-M.L
 
 # Install the dependencies
 pip install pytesseract or install from IDE (PyCharm for example).
-install Tesseract for Windows (i was created this project on Windows Machine. If u use Ubuntu or Mac, need search other tutorial).
+install Tesseract for Windows (i was created this project on Windows Machine. If u use Ubuntu or Mac,
+need search other tutorial).
 
-After install Tesseract, locate the installation folder. Confirm if 'C:\\Users\\User\\AppData\\Local\\Tesseract-OCR\\tesseract.exe' is the same location. Case not, change it.
+After install Tesseract, locate the installation folder.
+Confirm if 'C:\\Users\\User\\AppData\\Local\\Tesseract-OCR\\tesseract.exe' is the same location. Case not, change it.
 
 # To start
 python "general text detection.py" 
