@@ -9,7 +9,7 @@ imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ### Detecting Characters
 hImg, wImg, _ = img.shape
 conf = r'--oem 3 --psm 6 outputbase digits'
-boxes = pytesseract.image_to_boxes(img, config=conf)echo "# Text-Detection-M.L" >> README.md
+boxes = pytesseract.image_to_boxes(img, config=conf)
 for b in boxes.splitlines():
     #print(b)
     b = b.split(' ')
