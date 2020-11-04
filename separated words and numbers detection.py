@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\User\\AppData\\Local\\Tesseract-OCR\\tesseract.exe'
-img = cv2.imread('images\\book.png')
+img = cv2.imread('images\\book2.png')
 imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #print(pytesseract.image_to_string(img))
 
