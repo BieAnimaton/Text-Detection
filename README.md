@@ -28,7 +28,8 @@ install Tesseract for Windows (i was created this project on Windows Machine. If
 need search other tutorial).
 
 After install Tesseract, locate the installation folder.
-Confirm if 'C:\\Users\\User\\AppData\\Local\\Tesseract-OCR\\tesseract.exe' is the same location. Case not, change it.
+Confirm if 'C:\\Users\\User\\AppData\\Local\\Tesseract-OCR\\tesseract.exe' is the same location.
+Case not, change it.
 
 # To start
 python "general text detection.py" 
